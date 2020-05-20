@@ -1,0 +1,54 @@
+body {
+    margin:0;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: lightskyblue;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#carrer-objective {
+    background-image:url(https://i.pinimg.com/236x/11/d3/15/11d31543d2141800d56c09d93e9c44e3--blue-patterns-design-patterns.jpg)
+
+}
+
+#Education {
+    background-image: url(https://i.pinimg.com/236x/11/d3/15/11d31543d2141800d56c09d93e9c44e3--blue-patterns-design-patterns.jpg);
+}
+
+#Exprecienceandknowledge {
+    background-image: url(https://i.pinimg.com/236x/11/d3/15/11d31543d2141800d56c09d93e9c44e3--blue-patterns-design-patterns.jpg);
+}
+
+#ContactMe {
+    background-image: url(https://i.pinimg.com/236x/11/d3/15/11d31543d2141800d56c09d93e9c44e3--blue-patterns-design-patterns.jpg);
+}
